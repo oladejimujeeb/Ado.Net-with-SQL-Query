@@ -1,0 +1,62 @@
+
+use schoolapp;
+create table courses
+(
+	id int primary key not null auto_increment unique,
+    name varchar(50) not null unique,
+    code varchar(50) not null unique,
+    description varchar(100)
+);
+
+create table departments
+(
+	id int primary key not null auto_increment unique,
+    name varchar(50) not null unique,
+    code varchar(50) not null unique,
+    description varchar(100)
+);
+create table levels
+(
+	id int primary key not null auto_increment unique,
+    name varchar(50),
+    maxNumberOfStudent int
+);
+create table students
+(
+	id int primary key not null auto_increment unique,
+    firstName varchar(50) not null,
+    lastName varchar(50) not null,
+    matricNumber varchar(50) not null unique,
+    age int,
+    address varchar(200),
+    phoneno varchar(50),
+    email varchar(50) not null unique,
+    password varchar(250) not null,
+	hashsalt varchar(250),
+    departmentId int,
+	levelid int,
+	foreign key(departmentId) references departments(id),
+	foreign key(levelid) references levels(id)
+);
+create table teachers
+(	id int primary key not null auto_increment unique,
+	staffId varchar(50) not null,
+	firstName varchar(50) not null,
+	lastName varchar(50) not null,
+	age int,
+	address varchar(200),
+	phoneNumber varchar(50),
+	email varchar(50) not null unique,
+	password varchar(250) not null,
+	hashsalt varchar(250),
+	departmentId int,
+	foreign key(departmentId) references departments(id)
+);
+
+create table studentCourses
+(	id int primary key not null auto_increment unique,
+	studentId int,
+	courseId int,
+	foreign key (studentId) references students(id),
+	foreign key (courseId) references courses(id)
+);

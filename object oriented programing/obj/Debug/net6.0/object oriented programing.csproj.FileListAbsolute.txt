@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\code learners hub\object oriented programing\bin\Debug\net6.0\object oriented programing.exe
+C:\Users\User\Desktop\code learners hub\object oriented programing\bin\Debug\net6.0\object oriented programing.deps.json
+C:\Users\User\Desktop\code learners hub\object oriented programing\bin\Debug\net6.0\object oriented programing.runtimeconfig.json
+C:\Users\User\Desktop\code learners hub\object oriented programing\bin\Debug\net6.0\object oriented programing.dll
+C:\Users\User\Desktop\code learners hub\object oriented programing\bin\Debug\net6.0\ref\object oriented programing.dll
+C:\Users\User\Desktop\code learners hub\object oriented programing\bin\Debug\net6.0\object oriented programing.pdb
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.AssemblyInfo.cs
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.dll
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\ref\object oriented programing.dll
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.pdb
+C:\Users\User\Desktop\code learners hub\object oriented programing\obj\Debug\net6.0\object oriented programing.genruntimeconfig.cache
